@@ -1,0 +1,57 @@
+    /* Global styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Header styles */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    header h1 {
+      font-size: 32px;
+    }
+
+    /* Form styles */
+    label {
+      margin-right: 10px;
+    }
+
+    select,
+    button {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #4caf50;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    select:hover,
+    button:hover {
+      background-color: #3e8e41;
+    }
+
+    /* Chart container styles */
+    .chart-container {
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    /* Chart styles */
+    canvas {
+      width: 100%;
+      height: auto;
+    }
